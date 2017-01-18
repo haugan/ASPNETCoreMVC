@@ -1,0 +1,320 @@
+2017-01-06T10:32:27.5588516+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-06T10:32:27.8511453+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-06T10:32:28.2955891+01:00 0HL1M2RN6E56Q [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T10:32:28.7450386+01:00 0HL1M2RN6E56Q [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T10:32:30.5097906+01:00 0HL1M2RN6E56Q [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T10:32:32.2565247+01:00 0HL1M2RN6E56Q [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T10:32:32.7890440+01:00 0HL1M2RN6E56R [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   (e5be5b71)
+2017-01-06T10:32:32.7890440+01:00 0HL1M2RN6E56S [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   (e5be5b71)
+2017-01-06T10:32:32.7960506+01:00 0HL1M2RN6E56Q [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 4193.3333ms (afa2e885)
+2017-01-06T10:32:32.8300871+01:00 0HL1M2RN6E56R [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2017-01-06T10:32:32.8300871+01:00 0HL1M2RN6E56S [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\css\site.css"' (27b0a520)
+2017-01-06T10:32:32.8340910+01:00 0HL1M2RN6E56Q [INF] Request finished in 4565.5953ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T10:32:32.8451013+01:00 0HL1M2RN6E56S [INF] Request finished in 76.0207ms 200 text/css (15c52c40)
+2017-01-06T10:32:32.8691241+01:00 0HL1M2RN6E56R [INF] Request finished in 100.1883ms 200 text/css (15c52c40)
+2017-01-06T10:32:32.9722266+01:00 0HL1M2RN6E56T [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   (e5be5b71)
+2017-01-06T10:32:32.9732274+01:00 0HL1M2RN6E56T [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2017-01-06T10:32:32.9802339+01:00 0HL1M2RN6E56U [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.js   (e5be5b71)
+2017-01-06T10:32:32.9802339+01:00 0HL1M2RN6E56V [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=EWaMeWsJBYWmL2g_KkgXZQ5nPe-a3Ichp0LEgzXczKo   (e5be5b71)
+2017-01-06T10:32:33.0027568+01:00 0HL1M2RN6E56V [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\js\site.js"' (27b0a520)
+2017-01-06T10:32:33.0032570+01:00 0HL1M2RN6E56U [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\lib\bootstrap\dist\js\bootstrap.js"' (27b0a520)
+2017-01-06T10:32:33.0052592+01:00 0HL1M2RN6E56V [INF] Request finished in 25.193ms 200 application/javascript (15c52c40)
+2017-01-06T10:32:33.0092631+01:00 0HL1M2RN6E56U [INF] Request finished in 29.9347ms 200 application/javascript (15c52c40)
+2017-01-06T10:32:33.0127667+01:00 0HL1M2RN6E56T [INF] Request finished in 39.3667ms 200 application/javascript (15c52c40)
+2017-01-06T10:32:40.4795468+01:00 0HL1M2RN6E570 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Movies/Edit/2005   (e5be5b71)
+2017-01-06T10:32:40.5506156+01:00 0HL1M2RN6E570 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Edit (WebApplication8)" with arguments (["2005"]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T10:32:40.6427059+01:00 0HL1M2RN6E570 [WRN] The LINQ expression 'SingleOrDefault()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider. (3b5ca34b)
+2017-01-06T10:32:40.7888537+01:00 0HL1M2RN6E570 [INF] Executed DbCommand (12ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m]
+WHERE [m].[ID] = @__id_0 (3b5ca34b)
+2017-01-06T10:32:40.9400028+01:00 0HL1M2RN6E570 [INF] Executing ViewResult, running view at path "/Views/Movies/Edit.cshtml". (9707eebe)
+2017-01-06T10:32:41.1682313+01:00 0HL1M2RN6E570 [INF] Executed action "WebApplication8.Controllers.MoviesController.Edit (WebApplication8)" in 679.5989ms (afa2e885)
+2017-01-06T10:32:41.1702336+01:00 0HL1M2RN6E570 [INF] Request finished in 691.0156ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T10:32:41.2002617+01:00 0HL1M2RN6E571 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-validation/dist/jquery.validate.js   (e5be5b71)
+2017-01-06T10:32:41.2002617+01:00 0HL1M2RN6E572 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js   (e5be5b71)
+2017-01-06T10:32:41.2222828+01:00 0HL1M2RN6E571 [INF] Sending file. Request path: '"/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\lib\jquery-validation\dist\jquery.validate.js"' (27b0a520)
+2017-01-06T10:32:41.2222828+01:00 0HL1M2RN6E572 [INF] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"' (27b0a520)
+2017-01-06T10:32:41.2252861+01:00 0HL1M2RN6E572 [INF] Request finished in 45.4902ms 200 application/javascript (15c52c40)
+2017-01-06T10:32:41.2573183+01:00 0HL1M2RN6E571 [INF] Request finished in 77.0188ms 200 application/javascript (15c52c40)
+2017-01-06T10:32:44.8823270+01:00 0HL1M2RN6E573 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Movies/Edit/2005 application/x-www-form-urlencoded 258 (e5be5b71)
+2017-01-06T10:32:44.9488923+01:00 0HL1M2RN6E573 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Edit (WebApplication8)" with arguments (["2005", "WebApplication8.Models.Movie"]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T10:32:45.0600049+01:00 0HL1M2RN6E573 [INF] Executed DbCommand (4ms) [Parameters=[@p4='?', @p0='?' (Size = 30), @p1='?', @p2='?', @p3='?' (Size = 60)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Movie] SET [Genre] = @p0, [Price] = @p1, [ReleaseDate] = @p2, [Title] = @p3
+WHERE [ID] = @p4;
+SELECT @@ROWCOUNT; (3b5ca34b)
+2017-01-06T10:32:45.0750198+01:00 0HL1M2RN6E573 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2017-01-06T10:32:45.0770217+01:00 0HL1M2RN6E573 [INF] Executed action "WebApplication8.Controllers.MoviesController.Edit (WebApplication8)" in 191.1784ms (afa2e885)
+2017-01-06T10:32:45.0790245+01:00 0HL1M2RN6E573 [INF] Request finished in 197.2558ms 302  (15c52c40)
+2017-01-06T10:32:45.0860304+01:00 0HL1M2RN6E574 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T10:32:45.0880327+01:00 0HL1M2RN6E574 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T10:32:45.0940402+01:00 0HL1M2RN6E574 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T10:32:45.0960418+01:00 0HL1M2RN6E574 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T10:32:45.1100556+01:00 0HL1M2RN6E574 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 22.5716ms (afa2e885)
+2017-01-06T10:32:45.1120578+01:00 0HL1M2RN6E574 [INF] Request finished in 26.2264ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:10:55.4142789+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-06T11:10:55.5494136+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-06T11:10:55.9207806+01:00 0HL1M3H6TL5MA [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:10:56.2275787+01:00 0HL1M3H6TL5MA [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:10:57.4963169+01:00 0HL1M3H6TL5MA [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:10:58.9717384+01:00 0HL1M3H6TL5MA [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:10:59.4106591+01:00 0HL1M3H6TL5MA [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 3289.6187ms (afa2e885)
+2017-01-06T11:10:59.4196676+01:00 0HL1M3H6TL5MA [INF] Request finished in 3513.388ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:31.4576727+01:00 0HL1M3H6TL5MB [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:31.4576727+01:00 0HL1M3H6TL5MB [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:31.4857001+01:00 0HL1M3H6TL5MB [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:31.4857001+01:00 0HL1M3H6TL5MB [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:31.5007140+01:00 0HL1M3H6TL5MB [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 43.0528ms (afa2e885)
+2017-01-06T11:11:31.5007140+01:00 0HL1M3H6TL5MB [INF] Request finished in 43.6657ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:31.8160306+01:00 0HL1M3H6TL5MC [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:31.8280418+01:00 0HL1M3H6TL5MC [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:31.8790921+01:00 0HL1M3H6TL5MC [INF] Request finished in 62.3639ms 200 image/x-icon (15c52c40)
+2017-01-06T11:11:38.2373395+01:00 0HL1M3H6TL5MD [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:38.2373395+01:00 0HL1M3H6TL5MD [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:38.2383412+01:00 0HL1M3H6TL5MD [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:38.2383412+01:00 0HL1M3H6TL5MD [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:38.2463483+01:00 0HL1M3H6TL5MD [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.0397ms (afa2e885)
+2017-01-06T11:11:38.2463483+01:00 0HL1M3H6TL5MD [INF] Request finished in 9.2997ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:38.3774779+01:00 0HL1M3H6TL5ME [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:38.3774779+01:00 0HL1M3H6TL5ME [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:38.3779809+01:00 0HL1M3H6TL5ME [INF] Request finished in 0.4863ms 200 image/x-icon (15c52c40)
+2017-01-06T11:11:43.2342539+01:00 0HL1M3H6TL5MF [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:43.2342539+01:00 0HL1M3H6TL5MF [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:43.2342539+01:00 0HL1M3H6TL5MF [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:43.2342539+01:00 0HL1M3H6TL5MF [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:43.2432621+01:00 0HL1M3H6TL5MF [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.925ms (afa2e885)
+2017-01-06T11:11:43.2432621+01:00 0HL1M3H6TL5MF [INF] Request finished in 9.1726ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:43.3623800+01:00 0HL1M3H6TL5MG [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:43.3623800+01:00 0HL1M3H6TL5MG [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:43.3633814+01:00 0HL1M3H6TL5MG [INF] Request finished in 0.3379ms 200 image/x-icon (15c52c40)
+2017-01-06T11:11:44.2592639+01:00 0HL1M3H6TL5MH [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:44.2592639+01:00 0HL1M3H6TL5MH [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:44.2602653+01:00 0HL1M3H6TL5MH [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:44.2602653+01:00 0HL1M3H6TL5MH [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:44.2682724+01:00 0HL1M3H6TL5MH [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.956ms (afa2e885)
+2017-01-06T11:11:44.2682724+01:00 0HL1M3H6TL5MH [INF] Request finished in 9.1918ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:44.3743776+01:00 0HL1M3H6TL5MI [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:44.3743776+01:00 0HL1M3H6TL5MI [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:44.3753787+01:00 0HL1M3H6TL5MI [INF] Request finished in 0.3108ms 200 image/x-icon (15c52c40)
+2017-01-06T11:11:44.9609572+01:00 0HL1M3H6TL5MJ [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:44.9609572+01:00 0HL1M3H6TL5MJ [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:44.9609572+01:00 0HL1M3H6TL5MJ [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:44.9609572+01:00 0HL1M3H6TL5MJ [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:44.9699653+01:00 0HL1M3H6TL5MJ [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.0732ms (afa2e885)
+2017-01-06T11:11:44.9699653+01:00 0HL1M3H6TL5MJ [INF] Request finished in 9.3105ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:45.0760715+01:00 0HL1M3H6TL5MK [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:45.0760715+01:00 0HL1M3H6TL5MK [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:45.0760715+01:00 0HL1M3H6TL5MK [INF] Request finished in 0.3418ms 200 image/x-icon (15c52c40)
+2017-01-06T11:11:45.4234154+01:00 0HL1M3H6TL5ML [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:45.4234154+01:00 0HL1M3H6TL5ML [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:45.4244171+01:00 0HL1M3H6TL5ML [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:45.4244171+01:00 0HL1M3H6TL5ML [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:45.4334256+01:00 0HL1M3H6TL5ML [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.2165ms (afa2e885)
+2017-01-06T11:11:45.4334256+01:00 0HL1M3H6TL5ML [INF] Request finished in 9.5015ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:45.5365278+01:00 0HL1M3H6TL5MM [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:45.5365278+01:00 0HL1M3H6TL5MM [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:45.5365278+01:00 0HL1M3H6TL5MM [INF] Request finished in 0.3499ms 200 image/x-icon (15c52c40)
+2017-01-06T11:11:45.9098955+01:00 0HL1M3H6TL5MN [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:45.9098955+01:00 0HL1M3H6TL5MN [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:45.9108969+01:00 0HL1M3H6TL5MN [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:45.9108969+01:00 0HL1M3H6TL5MN [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:45.9189039+01:00 0HL1M3H6TL5MN [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.891ms (afa2e885)
+2017-01-06T11:11:45.9189039+01:00 0HL1M3H6TL5MN [INF] Request finished in 9.1425ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:46.0300141+01:00 0HL1M3H6TL5MO [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:46.0310155+01:00 0HL1M3H6TL5MO [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:46.0310155+01:00 0HL1M3H6TL5MO [INF] Request finished in 0.4722ms 200 image/x-icon (15c52c40)
+2017-01-06T11:11:46.3573347+01:00 0HL1M3H6TL5MP [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:46.3573347+01:00 0HL1M3H6TL5MP [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:46.3583358+01:00 0HL1M3H6TL5MP [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:46.3583358+01:00 0HL1M3H6TL5MP [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:46.3673446+01:00 0HL1M3H6TL5MP [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.1955ms (afa2e885)
+2017-01-06T11:11:46.3673446+01:00 0HL1M3H6TL5MP [INF] Request finished in 9.4759ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:46.4654424+01:00 0HL1M3H6TL5MQ [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:46.4654424+01:00 0HL1M3H6TL5MQ [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:46.4654424+01:00 0HL1M3H6TL5MQ [INF] Request finished in 0.3337ms 200 image/x-icon (15c52c40)
+2017-01-06T11:11:46.7962690+01:00 0HL1M3H6TL5MR [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:46.7962690+01:00 0HL1M3H6TL5MR [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:46.7967698+01:00 0HL1M3H6TL5MR [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:46.7967698+01:00 0HL1M3H6TL5MR [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:46.8047784+01:00 0HL1M3H6TL5MR [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.3388ms (afa2e885)
+2017-01-06T11:11:46.8057795+01:00 0HL1M3H6TL5MR [INF] Request finished in 9.5819ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:46.9128861+01:00 0HL1M3H6TL5MS [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:46.9128861+01:00 0HL1M3H6TL5MS [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:46.9138872+01:00 0HL1M3H6TL5MS [INF] Request finished in 0.4089ms 200 image/x-icon (15c52c40)
+2017-01-06T11:11:47.5445075+01:00 0HL1M3H6TL5MT [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:47.5445075+01:00 0HL1M3H6TL5MT [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:47.5445075+01:00 0HL1M3H6TL5MT [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:47.5445075+01:00 0HL1M3H6TL5MT [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:47.5535159+01:00 0HL1M3H6TL5MT [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.9925ms (afa2e885)
+2017-01-06T11:11:47.5535159+01:00 0HL1M3H6TL5MT [INF] Request finished in 9.262ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:47.6536154+01:00 0HL1M3H6TL5MU [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:47.6536154+01:00 0HL1M3H6TL5MU [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:47.6536154+01:00 0HL1M3H6TL5MU [INF] Request finished in 0.3541ms 200 image/x-icon (15c52c40)
+2017-01-06T11:11:48.0915471+01:00 0HL1M3H6TL5MV [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:48.0920476+01:00 0HL1M3H6TL5MV [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:48.0925482+01:00 0HL1M3H6TL5MV [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:48.0925482+01:00 0HL1M3H6TL5MV [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:48.1010558+01:00 0HL1M3H6TL5MV [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.0407ms (afa2e885)
+2017-01-06T11:11:48.1010558+01:00 0HL1M3H6TL5MV [INF] Request finished in 9.2822ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:48.2121681+01:00 0HL1M3H6TL5N0 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:48.2121681+01:00 0HL1M3H6TL5N0 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:48.2121681+01:00 0HL1M3H6TL5N0 [INF] Request finished in 0.3252ms 200 image/x-icon (15c52c40)
+2017-01-06T11:11:48.8658096+01:00 0HL1M3H6TL5N1 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:48.8658096+01:00 0HL1M3H6TL5N1 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:48.8668110+01:00 0HL1M3H6TL5N1 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:48.8668110+01:00 0HL1M3H6TL5N1 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:48.8758189+01:00 0HL1M3H6TL5N1 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.3894ms (afa2e885)
+2017-01-06T11:11:48.8758189+01:00 0HL1M3H6TL5N1 [INF] Request finished in 9.6334ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:48.9779209+01:00 0HL1M3H6TL5N2 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:48.9779209+01:00 0HL1M3H6TL5N2 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:48.9779209+01:00 0HL1M3H6TL5N2 [INF] Request finished in 0.3352ms 200 image/x-icon (15c52c40)
+2017-01-06T11:11:49.4018398+01:00 0HL1M3H6TL5N3 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:11:49.4023403+01:00 0HL1M3H6TL5N3 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:11:49.4028412+01:00 0HL1M3H6TL5N3 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:11:49.4028412+01:00 0HL1M3H6TL5N3 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:11:49.4113503+01:00 0HL1M3H6TL5N3 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.916ms (afa2e885)
+2017-01-06T11:11:49.4113503+01:00 0HL1M3H6TL5N3 [INF] Request finished in 9.1313ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:11:49.5074468+01:00 0HL1M3H6TL5N4 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:11:49.5074468+01:00 0HL1M3H6TL5N4 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:11:49.5074468+01:00 0HL1M3H6TL5N4 [INF] Request finished in 0.4186ms 200 image/x-icon (15c52c40)
+2017-01-06T11:12:11.0180893+01:00 0HL1M3H6TL5N5 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:12:11.0185902+01:00 0HL1M3H6TL5N5 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:12:11.0190905+01:00 0HL1M3H6TL5N5 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:12:11.0190905+01:00 0HL1M3H6TL5N5 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:12:11.0275993+01:00 0HL1M3H6TL5N5 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.2199ms (afa2e885)
+2017-01-06T11:12:11.0275993+01:00 0HL1M3H6TL5N5 [INF] Request finished in 9.4701ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:12:11.3218905+01:00 0HL1M3H6TL5N6 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:12:11.3223910+01:00 0HL1M3H6TL5N6 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:12:11.3223910+01:00 0HL1M3H6TL5N6 [INF] Request finished in 0.4415ms 200 image/x-icon (15c52c40)
+2017-01-06T11:12:17.3207635+01:00 0HL1M3H6TL5N7 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:12:17.3212640+01:00 0HL1M3H6TL5N7 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:12:17.3217646+01:00 0HL1M3H6TL5N7 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:12:17.3217646+01:00 0HL1M3H6TL5N7 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:12:17.3302731+01:00 0HL1M3H6TL5N7 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.0328ms (afa2e885)
+2017-01-06T11:12:17.3302731+01:00 0HL1M3H6TL5N7 [INF] Request finished in 9.247ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:12:17.4589030+01:00 0HL1M3H6TL5N8 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:12:17.4589030+01:00 0HL1M3H6TL5N8 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:12:17.4589030+01:00 0HL1M3H6TL5N8 [INF] Request finished in 0.312ms 200 image/x-icon (15c52c40)
+2017-01-06T11:12:18.3687932+01:00 0HL1M3H6TL5N9 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:12:18.3687932+01:00 0HL1M3H6TL5N9 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:12:18.3697946+01:00 0HL1M3H6TL5N9 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:12:18.3697946+01:00 0HL1M3H6TL5N9 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:12:18.3778017+01:00 0HL1M3H6TL5N9 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.9157ms (afa2e885)
+2017-01-06T11:12:18.3778017+01:00 0HL1M3H6TL5N9 [INF] Request finished in 9.1412ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:12:18.4949176+01:00 0HL1M3H6TL5NA [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:12:18.4949176+01:00 0HL1M3H6TL5NA [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:12:18.4949176+01:00 0HL1M3H6TL5NA [INF] Request finished in 0.3246ms 200 image/x-icon (15c52c40)
+2017-01-06T11:12:20.0534447+01:00 0HL1M3H6TL5NB [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:12:20.0534447+01:00 0HL1M3H6TL5NB [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:12:20.0544467+01:00 0HL1M3H6TL5NB [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:12:20.0544467+01:00 0HL1M3H6TL5NB [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:12:20.0624535+01:00 0HL1M3H6TL5NB [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.8551ms (afa2e885)
+2017-01-06T11:12:20.0624535+01:00 0HL1M3H6TL5NB [INF] Request finished in 9.0635ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:12:20.1715620+01:00 0HL1M3H6TL5NC [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:12:20.1715620+01:00 0HL1M3H6TL5NC [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:12:20.1715620+01:00 0HL1M3H6TL5NC [INF] Request finished in 0.3309ms 200 image/x-icon (15c52c40)
+2017-01-06T11:12:20.7296088+01:00 0HL1M3H6TL5ND [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:12:20.7301096+01:00 0HL1M3H6TL5ND [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:12:20.7306102+01:00 0HL1M3H6TL5ND [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:12:20.7306102+01:00 0HL1M3H6TL5ND [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:12:20.7381185+01:00 0HL1M3H6TL5ND [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.8789ms (afa2e885)
+2017-01-06T11:12:20.7381185+01:00 0HL1M3H6TL5ND [INF] Request finished in 9.1175ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:12:20.8382174+01:00 0HL1M3H6TL5NE [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:12:20.8392188+01:00 0HL1M3H6TL5NE [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:12:20.8392188+01:00 0HL1M3H6TL5NE [INF] Request finished in 0.3343ms 200 image/x-icon (15c52c40)
+2017-01-06T11:12:21.3096784+01:00 0HL1M3H6TL5NF [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:12:21.3106801+01:00 0HL1M3H6TL5NF [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:12:21.3106801+01:00 0HL1M3H6TL5NF [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:12:21.3106801+01:00 0HL1M3H6TL5NF [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:12:21.3186872+01:00 0HL1M3H6TL5NF [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.9184ms (afa2e885)
+2017-01-06T11:12:21.3196883+01:00 0HL1M3H6TL5NF [INF] Request finished in 9.1596ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:12:21.4368066+01:00 0HL1M3H6TL5NG [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:12:21.4368066+01:00 0HL1M3H6TL5NG [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:12:21.4368066+01:00 0HL1M3H6TL5NG [INF] Request finished in 0.3358ms 200 image/x-icon (15c52c40)
+2017-01-06T11:12:21.9383000+01:00 0HL1M3H6TL5NH [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:12:21.9393008+01:00 0HL1M3H6TL5NH [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:12:21.9393008+01:00 0HL1M3H6TL5NH [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:12:21.9393008+01:00 0HL1M3H6TL5NH [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:12:21.9483093+01:00 0HL1M3H6TL5NH [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.2957ms (afa2e885)
+2017-01-06T11:12:21.9483093+01:00 0HL1M3H6TL5NH [INF] Request finished in 9.5996ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:12:22.0474088+01:00 0HL1M3H6TL5NI [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:12:22.0484099+01:00 0HL1M3H6TL5NI [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:12:22.0484099+01:00 0HL1M3H6TL5NI [INF] Request finished in 0.3653ms 200 image/x-icon (15c52c40)
+2017-01-06T11:12:22.5048549+01:00 0HL1M3H6TL5NJ [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:12:22.5048549+01:00 0HL1M3H6TL5NJ [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:12:22.5058569+01:00 0HL1M3H6TL5NJ [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:12:22.5058569+01:00 0HL1M3H6TL5NJ [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:12:22.5138637+01:00 0HL1M3H6TL5NJ [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.8825ms (afa2e885)
+2017-01-06T11:12:22.5138637+01:00 0HL1M3H6TL5NJ [INF] Request finished in 9.1015ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:12:22.6334845+01:00 0HL1M3H6TL5NK [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:12:22.6339854+01:00 0HL1M3H6TL5NK [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:12:22.6339854+01:00 0HL1M3H6TL5NK [INF] Request finished in 0.3779ms 200 image/x-icon (15c52c40)
+2017-01-06T11:12:27.4371978+01:00 0HL1M3H6TL5NL [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:12:27.4376984+01:00 0HL1M3H6TL5NL [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:12:27.4381986+01:00 0HL1M3H6TL5NL [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:12:27.4937533+01:00 0HL1M3H6TL5NL [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:12:27.5217798+01:00 0HL1M3H6TL5NL [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 84.4988ms (afa2e885)
+2017-01-06T11:12:27.5217798+01:00 0HL1M3H6TL5NL [INF] Request finished in 84.8027ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:12:35.9710941+01:00 0HL1M3H6TL5NM [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:12:35.9710941+01:00 0HL1M3H6TL5NM [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:12:35.9720955+01:00 0HL1M3H6TL5NM [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:12:35.9720955+01:00 0HL1M3H6TL5NM [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:12:35.9841064+01:00 0HL1M3H6TL5NM [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 12.9993ms (afa2e885)
+2017-01-06T11:12:35.9841064+01:00 0HL1M3H6TL5NM [INF] Request finished in 13.2665ms 200 text/html; charset=utf-8 (15c52c40)

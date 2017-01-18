@@ -1,0 +1,275 @@
+2017-01-09T11:27:46.6776748+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T11:27:46.8428331+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T11:27:47.2186916+01:00 0HL1OF8JTV4V5 [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:27:47.2667381+01:00 0HL1OF8JTV4V5 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.InvalidOperationException: Et eller annet feil har skjedd.
+   at WebApplication8.Startup.<>c.<Configure>b__5_0(HttpContext context) in D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\Startup.cs:line 89
+   at Microsoft.VisualStudio.Web.BrowserLink.Runtime.BrowserLinkMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__6.MoveNext()
+2017-01-09T11:27:47.4018671+01:00 0HL1OF8JTV4V5 [INF] Request finished in 196.7163ms 500 text/html; charset=utf-8 (15c52c40)
+2017-01-09T11:29:13.6838197+01:00 0HL1OF8JTV4V6 [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:29:13.6843199+01:00 0HL1OF8JTV4V6 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.InvalidOperationException: Et eller annet feil har skjedd.
+   at WebApplication8.Startup.<>c.<Configure>b__5_0(HttpContext context) in D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\Startup.cs:line 89
+   at Microsoft.VisualStudio.Web.BrowserLink.Runtime.BrowserLinkMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__6.MoveNext()
+2017-01-09T11:29:13.6923282+01:00 0HL1OF8JTV4V6 [INF] Request finished in 8.4329ms 500 text/html; charset=utf-8 (15c52c40)
+2017-01-09T11:29:32.7585479+01:00 0HL1OF8JTV4V7 [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:29:32.7590482+01:00 0HL1OF8JTV4V7 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.InvalidOperationException: Et eller annet feil har skjedd.
+   at WebApplication8.Startup.<>c.<Configure>b__5_0(HttpContext context) in D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\Startup.cs:line 89
+   at Microsoft.VisualStudio.Web.BrowserLink.Runtime.BrowserLinkMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__6.MoveNext()
+2017-01-09T11:29:32.7655545+01:00 0HL1OF8JTV4V7 [INF] Request finished in 6.64ms 500 text/html; charset=utf-8 (15c52c40)
+2017-01-09T11:29:42.4297900+01:00 0HL1OF8JTV4V8 [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:29:42.4297900+01:00 0HL1OF8JTV4V8 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.InvalidOperationException: Et eller annet feil har skjedd.
+   at WebApplication8.Startup.<>c.<Configure>b__5_0(HttpContext context) in D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\Startup.cs:line 89
+   at Microsoft.VisualStudio.Web.BrowserLink.Runtime.BrowserLinkMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__6.MoveNext()
+2017-01-09T11:29:42.4372974+01:00 0HL1OF8JTV4V8 [INF] Request finished in 7.557ms 500 text/html; charset=utf-8 (15c52c40)
+2017-01-09T11:29:46.1518466+01:00 0HL1OF8JTV4V9 [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:29:46.1523472+01:00 0HL1OF8JTV4V9 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.InvalidOperationException: Et eller annet feil har skjedd.
+   at WebApplication8.Startup.<>c.<Configure>b__5_0(HttpContext context) in D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\Startup.cs:line 89
+   at Microsoft.VisualStudio.Web.BrowserLink.Runtime.BrowserLinkMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__6.MoveNext()
+2017-01-09T11:29:46.1588537+01:00 0HL1OF8JTV4V9 [INF] Request finished in 6.7174ms 500 text/html; charset=utf-8 (15c52c40)
+2017-01-09T11:41:42.6075368+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T11:41:42.7556783+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T11:41:43.1820858+01:00 0HL1OFGD2ATVS [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:41:43.2251271+01:00 0HL1OFGD2ATVS [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.InvalidOperationException: Et eller annet feil har skjedd.
+   at WebApplication8.Startup.<>c.<Configure>b__5_2(HttpContext context) in D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\Startup.cs:line 102
+   at Microsoft.VisualStudio.Web.BrowserLink.Runtime.BrowserLinkMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__6.MoveNext()
+2017-01-09T11:41:43.3497463+01:00 0HL1OFGD2ATVS [INF] Request finished in 180.2293ms 500 text/html; charset=utf-8 (15c52c40)
+2017-01-09T11:42:13.0065909+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T11:42:13.1502284+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T11:42:13.1897661+01:00  [FTL] Application startup exception (6c57a5ba)
+System.ArgumentException: The 'ClientId' option must be provided.
+   at Microsoft.AspNetCore.Authentication.OAuth.OAuthMiddleware`1..ctor(RequestDelegate next, IDataProtectionProvider dataProtectionProvider, ILoggerFactory loggerFactory, UrlEncoder encoder, IOptions`1 sharedOptions, IOptions`1 options)
+   at Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddleware..ctor(RequestDelegate next, IDataProtectionProvider dataProtectionProvider, ILoggerFactory loggerFactory, UrlEncoder encoder, IOptions`1 sharedOptions, IOptions`1 options)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass3_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2017-01-09T11:42:13.3324022+01:00 0HL1OFGM1S7I2 [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:42:13.3729410+01:00 0HL1OFGM1S7I2 [INF] Request finished in 52.3807ms 500 text/html; charset=utf-8 (15c52c40)
+2017-01-09T11:44:15.5146799+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T11:44:15.7288843+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T11:44:15.8004526+01:00  [FTL] Application startup exception (6c57a5ba)
+System.ArgumentException: The 'ClientId' option must be provided.
+   at Microsoft.AspNetCore.Authentication.OAuth.OAuthMiddleware`1..ctor(RequestDelegate next, IDataProtectionProvider dataProtectionProvider, ILoggerFactory loggerFactory, UrlEncoder encoder, IOptions`1 sharedOptions, IOptions`1 options)
+   at Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddleware..ctor(RequestDelegate next, IDataProtectionProvider dataProtectionProvider, ILoggerFactory loggerFactory, UrlEncoder encoder, IOptions`1 sharedOptions, IOptions`1 options)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass3_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2017-01-09T11:44:16.1027415+01:00 0HL1OFHQKMOL7 [INF] Request starting HTTP/1.1 DEBUG http://localhost:57820/  0 (e5be5b71)
+2017-01-09T11:44:16.1027415+01:00 0HL1OFHQKMOL6 [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:44:16.1678038+01:00 0HL1OFHQKMOL7 [INF] Request finished in 83.165ms 500 text/html; charset=utf-8 (15c52c40)
+2017-01-09T11:44:16.1678038+01:00 0HL1OFHQKMOL6 [INF] Request finished in 83.1674ms 500 text/html; charset=utf-8 (15c52c40)
+2017-01-09T11:46:49.9542764+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T11:46:50.0944103+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T11:46:50.1289434+01:00  [FTL] Application startup exception (6c57a5ba)
+System.ArgumentException: The 'ClientId' option must be provided.
+   at Microsoft.AspNetCore.Authentication.OAuth.OAuthMiddleware`1..ctor(RequestDelegate next, IDataProtectionProvider dataProtectionProvider, ILoggerFactory loggerFactory, UrlEncoder encoder, IOptions`1 sharedOptions, IOptions`1 options)
+   at Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddleware..ctor(RequestDelegate next, IDataProtectionProvider dataProtectionProvider, ILoggerFactory loggerFactory, UrlEncoder encoder, IOptions`1 sharedOptions, IOptions`1 options)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass3_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2017-01-09T11:46:50.2845924+01:00 0HL1OFJ8J3APJ [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:46:50.3276337+01:00 0HL1OFJ8J3APJ [INF] Request finished in 55.3683ms 500 text/html; charset=utf-8 (15c52c40)
+2017-01-09T11:47:23.5398714+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T11:47:23.6780034+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T11:47:23.7130370+01:00  [FTL] Application startup exception (6c57a5ba)
+System.ArgumentException: The 'ClientId' option must be provided.
+   at Microsoft.AspNetCore.Authentication.OAuth.OAuthMiddleware`1..ctor(RequestDelegate next, IDataProtectionProvider dataProtectionProvider, ILoggerFactory loggerFactory, UrlEncoder encoder, IOptions`1 sharedOptions, IOptions`1 options)
+   at Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddleware..ctor(RequestDelegate next, IDataProtectionProvider dataProtectionProvider, ILoggerFactory loggerFactory, UrlEncoder encoder, IOptions`1 sharedOptions, IOptions`1 options)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass3_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2017-01-09T11:47:23.8671846+01:00 0HL1OFJIJBOT5 [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:47:23.9102259+01:00 0HL1OFJIJBOT5 [INF] Request finished in 54.466ms 500 text/html; charset=utf-8 (15c52c40)
+2017-01-09T11:47:48.7239417+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T11:47:48.8735846+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T11:47:49.3004929+01:00 0HL1OFJQ5TD23 [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:47:49.3440348+01:00 0HL1OFJQ5TD23 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.InvalidOperationException: Et eller annet feil har skjedd.
+   at WebApplication8.Startup.<>c.<Configure>b__5_0(HttpContext context) in D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\Startup.cs:line 103
+   at Microsoft.VisualStudio.Web.BrowserLink.Runtime.BrowserLinkMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__6.MoveNext()
+2017-01-09T11:47:49.4681528+01:00 0HL1OFJQ5TD23 [INF] Request finished in 180.4784ms 500 text/html; charset=utf-8 (15c52c40)
+2017-01-09T11:48:08.9597795+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T11:48:09.1094230+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T11:48:09.5383324+01:00 0HL1OFK06TG6T [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:48:09.5863783+01:00 0HL1OFK06TG6T [INF] Request finished in 60.6202ms 404  (15c52c40)
+2017-01-09T11:49:40.5998565+01:00 0HL1OFK06TG6U [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:49:40.6003567+01:00 0HL1OFK06TG6U [INF] Request finished in 0.2409ms 404  (15c52c40)
+2017-01-09T11:52:09.5742506+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T11:52:09.7288984+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T11:52:10.1247770+01:00 0HL1OFM7TAQ36 [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:52:10.2078565+01:00 0HL1OFM7TAQ36 [INF] Request finished in 98.6322ms 404 text/html (15c52c40)
+2017-01-09T11:54:07.8662965+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T11:54:08.0199432+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T11:54:08.4468512+01:00 0HL1OFNB5NM6V [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:54:08.4948969+01:00 0HL1OFNB5NM6V [INF] Request finished in 60.5687ms 404  (15c52c40)
+2017-01-09T11:54:14.7879110+01:00 0HL1OFNB5NM70 [INF] Request starting HTTP/1.1 GET http://localhost:57820/   (e5be5b71)
+2017-01-09T11:54:14.7879110+01:00 0HL1OFNB5NM70 [INF] Request finished in 0.1912ms 404  (15c52c40)
+2017-01-09T13:55:45.8206660+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T13:55:46.1224543+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T13:55:46.6804881+01:00 0HL1OHRA744RB [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-09T13:55:46.7315361+01:00 0HL1OHRA744RB [INF] Request 2 (2eb26f44)
+2017-01-09T13:55:47.0973860+01:00 0HL1OHRA744RB [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-09T13:55:49.1828785+01:00 0HL1OHRA744RB [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-09T13:55:51.1712790+01:00 0HL1OHRA744RB [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-09T13:55:51.7478312+01:00 0HL1OHRA744RB [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 4787.3951ms (afa2e885)
+2017-01-09T13:55:51.7638456+01:00 0HL1OHRA744RB [INF] Request finished in 5102.9366ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-09T13:55:51.7638456+01:00 0HL1OHRA744RC [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   (e5be5b71)
+2017-01-09T13:55:51.7663481+01:00 0HL1OHRA744RC [INF] Request 3 (3c790ad1)
+2017-01-09T13:55:51.7833648+01:00 0HL1OHRA744RC [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\css\site.css"' (27b0a520)
+2017-01-09T13:55:51.8269057+01:00 0HL1OHRA744RC [INF] Request finished in 63.9744ms 200 text/css (15c52c40)
+2017-01-09T13:58:11.9237899+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T13:58:12.0734326+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T13:58:12.7110420+01:00 0HL1OHSLNOQMM [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-09T13:58:12.7295598+01:00 0HL1OHSLNOQMM [INF] Request 2 (2eb26f44)
+2017-01-09T13:58:13.0258426+01:00 0HL1OHSLNOQMM [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-09T13:58:13.8085906+01:00 0HL1OHSLNOQMM [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-09T13:58:15.3025183+01:00 0HL1OHSLNOQMM [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-09T13:58:15.7574535+01:00 0HL1OHSLNOQMM [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 2840.508ms (afa2e885)
+2017-01-09T13:58:15.7679639+01:00 0HL1OHSLNOQMM [INF] Request finished in 3071.6872ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-09T13:58:42.9659548+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T13:58:43.1646441+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T13:58:43.5254887+01:00 0HL1OHSUTKL19 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-09T13:58:43.5445074+01:00 0HL1OHSUTKL19 [INF] Request 2 (2eb26f44)
+2017-01-09T13:58:43.8472965+01:00 0HL1OHSUTKL19 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-09T13:58:44.6415554+01:00 0HL1OHSUTKL19 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-09T13:58:46.1514981+01:00 0HL1OHSUTKL19 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-09T13:58:46.6004272+01:00 0HL1OHSUTKL19 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 2863.0239ms (afa2e885)
+2017-01-09T13:58:46.6099365+01:00 0HL1OHSUTKL19 [INF] Request finished in 3100.0661ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-09T13:59:02.7763860+01:00 0HL1OHSUTKL1A [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-09T13:59:02.7768862+01:00 0HL1OHSUTKL1A [INF] Request 3 (3c790ad1)
+2017-01-09T13:59:02.7773865+01:00 0HL1OHSUTKL1A [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-09T13:59:02.8099176+01:00 0HL1OHSUTKL1A [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-09T13:59:02.8829873+01:00 0HL1OHSUTKL1A [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-09T13:59:02.9130160+01:00 0HL1OHSUTKL1A [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 135.9665ms (afa2e885)
+2017-01-09T13:59:02.9130160+01:00 0HL1OHSUTKL1A [INF] Request finished in 136.858ms 200 text/html; charset=utf-8 (15c52c40)

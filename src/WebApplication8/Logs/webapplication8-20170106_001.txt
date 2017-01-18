@@ -1,0 +1,542 @@
+2017-01-06T11:12:27.7630242+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-06T11:12:27.9041638+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-06T11:12:36.2994227+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-06T11:12:36.4345547+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-06T11:12:50.0594158+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-06T11:12:50.1940491+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-06T11:12:50.5223707+01:00 0HL1M3I92IPRA [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:12:50.8281707+01:00 0HL1M3I92IPRA [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:12:51.5813970+01:00 0HL1M3I92IPRA [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:12:53.0307954+01:00 0HL1M3I92IPRA [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:12:53.4782258+01:00 0HL1M3I92IPRA [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 2756.3009ms (afa2e885)
+2017-01-06T11:12:53.4872343+01:00 0HL1M3I92IPRA [INF] Request finished in 2979.4634ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:13:02.1487239+01:00 0HL1M3I92IPRB [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:13:02.1487239+01:00 0HL1M3I92IPRB [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:13:02.1767534+01:00 0HL1M3I92IPRB [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:13:02.1777545+01:00 0HL1M3I92IPRB [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:13:02.1927709+01:00 0HL1M3I92IPRB [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 43.8009ms (afa2e885)
+2017-01-06T11:13:02.1927709+01:00 0HL1M3I92IPRB [INF] Request finished in 44.3804ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:13:02.3479235+01:00 0HL1M3I92IPRC [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:13:02.3589348+01:00 0HL1M3I92IPRC [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:13:02.3679421+01:00 0HL1M3I92IPRC [INF] Request finished in 19.5276ms 200 image/x-icon (15c52c40)
+2017-01-06T11:14:10.4816945+01:00 0HL1M3I92IPRD [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:14:10.4826959+01:00 0HL1M3I92IPRD [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:14:10.4826959+01:00 0HL1M3I92IPRD [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:14:10.5347451+01:00 0HL1M3I92IPRD [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:14:10.5587727+01:00 0HL1M3I92IPRD [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 76.2782ms (afa2e885)
+2017-01-06T11:14:10.5587727+01:00 0HL1M3I92IPRD [INF] Request finished in 76.5517ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:14:10.8510601+01:00 0HL1M3I92IPRE [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:14:10.8510601+01:00 0HL1M3I92IPRE [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:14:10.8510601+01:00 0HL1M3I92IPRE [INF] Request finished in 0.4704ms 200 image/x-icon (15c52c40)
+2017-01-06T11:14:17.1732444+01:00 0HL1M3I92IPRF [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:14:17.1732444+01:00 0HL1M3I92IPRF [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:14:17.1732444+01:00 0HL1M3I92IPRF [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:14:17.1742455+01:00 0HL1M3I92IPRF [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:14:17.1822526+01:00 0HL1M3I92IPRF [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.9789ms (afa2e885)
+2017-01-06T11:14:17.1822526+01:00 0HL1M3I92IPRF [INF] Request finished in 9.222ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:14:17.3098814+01:00 0HL1M3I92IPRG [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:14:17.3098814+01:00 0HL1M3I92IPRG [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:14:17.3098814+01:00 0HL1M3I92IPRG [INF] Request finished in 0.3815ms 200 image/x-icon (15c52c40)
+2017-01-06T11:14:18.3484006+01:00 0HL1M3I92IPRH [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:14:18.3484006+01:00 0HL1M3I92IPRH [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:14:18.3494020+01:00 0HL1M3I92IPRH [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:14:18.3494020+01:00 0HL1M3I92IPRH [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:14:18.3574094+01:00 0HL1M3I92IPRH [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.2467ms (afa2e885)
+2017-01-06T11:14:18.3574094+01:00 0HL1M3I92IPRH [INF] Request finished in 9.5002ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:14:18.4775286+01:00 0HL1M3I92IPRI [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:14:18.4775286+01:00 0HL1M3I92IPRI [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:14:18.4775286+01:00 0HL1M3I92IPRI [INF] Request finished in 0.3285ms 200 image/x-icon (15c52c40)
+2017-01-06T11:14:19.2993330+01:00 0HL1M3I92IPRJ [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:14:19.2993330+01:00 0HL1M3I92IPRJ [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:14:19.3003350+01:00 0HL1M3I92IPRJ [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:14:19.3003350+01:00 0HL1M3I92IPRJ [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:14:19.3088444+01:00 0HL1M3I92IPRJ [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.1933ms (afa2e885)
+2017-01-06T11:14:19.3088444+01:00 0HL1M3I92IPRJ [INF] Request finished in 9.4376ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:14:19.4134492+01:00 0HL1M3I92IPRK [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:14:19.4139494+01:00 0HL1M3I92IPRK [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:14:19.4139494+01:00 0HL1M3I92IPRK [INF] Request finished in 0.3331ms 200 image/x-icon (15c52c40)
+2017-01-06T11:14:20.2107300+01:00 0HL1M3I92IPRL [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:14:20.2107300+01:00 0HL1M3I92IPRL [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:14:20.2112308+01:00 0HL1M3I92IPRL [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:14:20.2117311+01:00 0HL1M3I92IPRL [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:14:20.2197391+01:00 0HL1M3I92IPRL [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.0801ms (afa2e885)
+2017-01-06T11:14:20.2202390+01:00 0HL1M3I92IPRL [INF] Request finished in 9.3846ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:14:20.3233442+01:00 0HL1M3I92IPRM [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:14:20.3233442+01:00 0HL1M3I92IPRM [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:14:20.3233442+01:00 0HL1M3I92IPRM [INF] Request finished in 0.359ms 200 image/x-icon (15c52c40)
+2017-01-06T11:14:22.0920778+01:00 0HL1M3I92IPRN [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:14:22.0920778+01:00 0HL1M3I92IPRN [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:14:22.0920778+01:00 0HL1M3I92IPRN [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:14:22.0930786+01:00 0HL1M3I92IPRN [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:14:22.1010859+01:00 0HL1M3I92IPRN [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.9274ms (afa2e885)
+2017-01-06T11:14:22.1010859+01:00 0HL1M3I92IPRN [INF] Request finished in 9.14ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:14:22.2021871+01:00 0HL1M3I92IPRO [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:14:22.2021871+01:00 0HL1M3I92IPRO [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:14:22.2021871+01:00 0HL1M3I92IPRO [INF] Request finished in 0.4701ms 200 image/x-icon (15c52c40)
+2017-01-06T11:14:22.7447200+01:00 0HL1M3I92IPRP [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:14:22.7447200+01:00 0HL1M3I92IPRP [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:14:22.7447200+01:00 0HL1M3I92IPRP [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:14:22.7457211+01:00 0HL1M3I92IPRP [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:14:22.7537287+01:00 0HL1M3I92IPRP [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.8849ms (afa2e885)
+2017-01-06T11:14:22.7537287+01:00 0HL1M3I92IPRP [INF] Request finished in 9.137ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:14:22.8678413+01:00 0HL1M3I92IPRQ [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:14:22.8678413+01:00 0HL1M3I92IPRQ [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:14:22.8678413+01:00 0HL1M3I92IPRQ [INF] Request finished in 0.3475ms 200 image/x-icon (15c52c40)
+2017-01-06T11:14:24.7056415+01:00 0HL1M3I92IPRR [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:14:24.7056415+01:00 0HL1M3I92IPRR [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:14:24.7066426+01:00 0HL1M3I92IPRR [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:14:24.7066426+01:00 0HL1M3I92IPRR [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:14:24.7146508+01:00 0HL1M3I92IPRR [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 8.8849ms (afa2e885)
+2017-01-06T11:14:24.7151514+01:00 0HL1M3I92IPRR [INF] Request finished in 9.1117ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:14:24.8137501+01:00 0HL1M3I92IPRS [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:14:24.8137501+01:00 0HL1M3I92IPRS [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:14:24.8142507+01:00 0HL1M3I92IPRS [INF] Request finished in 0.3352ms 200 image/x-icon (15c52c40)
+2017-01-06T11:14:25.2952213+01:00 0HL1M3I92IPRT [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:14:25.2952213+01:00 0HL1M3I92IPRT [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:14:25.2962230+01:00 0HL1M3I92IPRT [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:14:25.2962230+01:00 0HL1M3I92IPRT [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:14:25.3042304+01:00 0HL1M3I92IPRT [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.0271ms (afa2e885)
+2017-01-06T11:14:25.3042304+01:00 0HL1M3I92IPRT [INF] Request finished in 9.2689ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:14:25.4103350+01:00 0HL1M3I92IPRU [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:14:25.4103350+01:00 0HL1M3I92IPRU [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:14:25.4103350+01:00 0HL1M3I92IPRU [INF] Request finished in 0.3234ms 200 image/x-icon (15c52c40)
+2017-01-06T11:56:52.3597088+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-06T11:56:52.4998503+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-06T11:56:52.8091608+01:00 0HL1M4ASHCNP7 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:56:53.1234730+01:00 0HL1M4ASHCNP7 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:56:54.6800126+01:00 0HL1M4ASHCNP7 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:56:56.1574393+01:00 0HL1M4ASHCNP7 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:56:56.6023661+01:00 0HL1M4ASHCNP7 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 3588.5501ms (afa2e885)
+2017-01-06T11:56:56.6118742+01:00 0HL1M4ASHCNP7 [INF] Request finished in 3817.3093ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:59:16.4670287+01:00 0HL1M4ASHCNP8 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T11:59:16.4670287+01:00 0HL1M4ASHCNP8 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T11:59:16.4970575+01:00 0HL1M4ASHCNP8 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T11:59:16.5781389+01:00 0HL1M4ASHCNP8 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T11:59:16.6101705+01:00 0HL1M4ASHCNP8 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 142.7887ms (afa2e885)
+2017-01-06T11:59:16.6101705+01:00 0HL1M4ASHCNP8 [INF] Request finished in 143.5429ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T11:59:16.9154726+01:00 0HL1M4ASHCNP9 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   (e5be5b71)
+2017-01-06T11:59:16.9294858+01:00 0HL1M4ASHCNP9 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\favicon.ico"' (27b0a520)
+2017-01-06T11:59:16.9404971+01:00 0HL1M4ASHCNP9 [INF] Request finished in 25.3957ms 200 image/x-icon (15c52c40)
+2017-01-06T12:30:48.7553433+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-06T12:30:48.8949764+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-06T12:30:49.2162921+01:00 0HL1M4TRE2S5L [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T12:30:49.5335980+01:00 0HL1M4TRE2S5L [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:30:50.8238615+01:00 0HL1M4TRE2S5L [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T12:30:52.2877735+01:00 0HL1M4TRE2S5L [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T12:30:52.7462129+01:00 0HL1M4TRE2S5L [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 3321.518ms (afa2e885)
+2017-01-06T12:30:52.7557240+01:00 0HL1M4TRE2S5L [INF] Request finished in 3555ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:30:55.9508762+01:00 0HL1M4TRE2S5M [INF] Request starting HTTP/1.1 GET http://localhost:5000/Account/Register   (e5be5b71)
+2017-01-06T12:30:56.0049304+01:00 0HL1M4TRE2S5M [INF] Executing action method "WebApplication8.Controllers.AccountController.Register (WebApplication8)" with arguments ([""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:30:56.1160396+01:00 0HL1M4TRE2S5M [INF] Executing ViewResult, running view at path "/Views/Account/Register.cshtml". (9707eebe)
+2017-01-06T12:30:56.3022252+01:00 0HL1M4TRE2S5M [INF] Executed action "WebApplication8.Controllers.AccountController.Register (WebApplication8)" in 344.6631ms (afa2e885)
+2017-01-06T12:30:56.3022252+01:00 0HL1M4TRE2S5M [INF] Request finished in 351.6899ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:31:05.2340308+01:00 0HL1M4TRE2S5N [INF] Request starting HTTP/1.1 POST http://localhost:5000/Account/Register application/x-www-form-urlencoded 256 (e5be5b71)
+2017-01-06T12:31:05.3041018+01:00 0HL1M4TRE2S5N [INF] Executing action method "WebApplication8.Controllers.AccountController.Register (WebApplication8)" with arguments (["WebApplication8.Models.AccountViewModels.RegisterViewModel", ""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:31:05.3231199+01:00 0HL1M4TRE2S5N [WRN] User "0d3725da-d945-4c64-a313-45725aad6f72" password validation failed: "PasswordRequiresNonAlphanumeric;PasswordRequiresUpper". (2f223212)
+2017-01-06T12:31:05.3251218+01:00 0HL1M4TRE2S5N [INF] Executing ViewResult, running view at path "/Views/Account/Register.cshtml". (9707eebe)
+2017-01-06T12:31:05.3281248+01:00 0HL1M4TRE2S5N [INF] Executed action "WebApplication8.Controllers.AccountController.Register (WebApplication8)" in 91.0009ms (afa2e885)
+2017-01-06T12:31:05.3281248+01:00 0HL1M4TRE2S5N [INF] Request finished in 93.5404ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:31:18.6942877+01:00 0HL1M4TRE2S5O [INF] Request starting HTTP/1.1 POST http://localhost:5000/Account/Register application/x-www-form-urlencoded 270 (e5be5b71)
+2017-01-06T12:31:18.6962903+01:00 0HL1M4TRE2S5O [INF] Executing action method "WebApplication8.Controllers.AccountController.Register (WebApplication8)" with arguments (["WebApplication8.Models.AccountViewModels.RegisterViewModel", ""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:31:18.9575493+01:00 0HL1M4TRE2S5O [INF] Executed DbCommand (12ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0 (3b5ca34b)
+2017-01-06T12:31:19.0746647+01:00 0HL1M4TRE2S5O [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 450), @p1='?', @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?', @p5='?', @p6='?', @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?', @p12='?' (Size = 4000), @p13='?', @p14='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14); (3b5ca34b)
+2017-01-06T12:31:19.1537439+01:00 0HL1M4TRE2S5O [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0 (3b5ca34b)
+2017-01-06T12:31:19.1697589+01:00 0HL1M4TRE2S5O [INF] Executed DbCommand (0ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0 (3b5ca34b)
+2017-01-06T12:31:19.1947830+01:00 0HL1M4TRE2S5O [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2017-01-06T12:31:19.1957838+01:00 0HL1M4TRE2S5O [INF] User created a new account with password. (693a7015)
+2017-01-06T12:31:19.1977857+01:00 0HL1M4TRE2S5O [INF] Executing RedirectResult, redirecting to "/Home". (d98d540e)
+2017-01-06T12:31:19.1987866+01:00 0HL1M4TRE2S5O [INF] Executed action "WebApplication8.Controllers.AccountController.Register (WebApplication8)" in 503.7609ms (afa2e885)
+2017-01-06T12:31:19.1987866+01:00 0HL1M4TRE2S5O [INF] Request finished in 504.35ms 302  (15c52c40)
+2017-01-06T12:31:19.2042939+01:00 0HL1M4TRE2S5P [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home   (e5be5b71)
+2017-01-06T12:31:19.2138026+01:00 0HL1M4TRE2S5P [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T12:31:19.2148034+01:00 0HL1M4TRE2S5P [INF] Executing action method "WebApplication8.Controllers.HomeController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:31:19.2728605+01:00 0HL1M4TRE2S5P [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-01-06T12:31:19.2838712+01:00 0HL1M4TRE2S5P [INF] Executed action "WebApplication8.Controllers.HomeController.Index (WebApplication8)" in 70.1177ms (afa2e885)
+2017-01-06T12:31:19.2838712+01:00 0HL1M4TRE2S5P [INF] Request finished in 79.8514ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:31:19.4610492+01:00 0HL1M4TRE2S5Q [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/banner1.svg   (e5be5b71)
+2017-01-06T12:31:19.4670543+01:00 0HL1M4TRE2S5R [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/banner2.svg   (e5be5b71)
+2017-01-06T12:31:19.4680563+01:00 0HL1M4TRE2S5S [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/banner3.svg   (e5be5b71)
+2017-01-06T12:31:19.4680563+01:00 0HL1M4TRE2S5T [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/banner4.svg   (e5be5b71)
+2017-01-06T12:31:19.4840711+01:00 0HL1M4TRE2S5U [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2   (e5be5b71)
+2017-01-06T12:31:19.4940806+01:00 0HL1M4TRE2S5T [INF] Sending file. Request path: '"/images/banner4.svg"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\images\banner4.svg"' (27b0a520)
+2017-01-06T12:31:19.4940806+01:00 0HL1M4TRE2S5R [INF] Sending file. Request path: '"/images/banner2.svg"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\images\banner2.svg"' (27b0a520)
+2017-01-06T12:31:19.4940806+01:00 0HL1M4TRE2S5U [INF] Sending file. Request path: '"/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2"' (27b0a520)
+2017-01-06T12:31:19.4940806+01:00 0HL1M4TRE2S5Q [INF] Sending file. Request path: '"/images/banner1.svg"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\images\banner1.svg"' (27b0a520)
+2017-01-06T12:31:19.4940806+01:00 0HL1M4TRE2S5S [INF] Sending file. Request path: '"/images/banner3.svg"'. Physical path: '"D:\Dev\Visual Studio Projects\MSVirtualAcademy\IntroAspCore\WebApplication8\src\WebApplication8\wwwroot\images\banner3.svg"' (27b0a520)
+2017-01-06T12:31:19.5030912+01:00 0HL1M4TRE2S5Q [INF] Request finished in 42.4528ms 200 image/svg+xml (15c52c40)
+2017-01-06T12:31:19.5161038+01:00 0HL1M4TRE2S5R [INF] Request finished in 49.3338ms 200 image/svg+xml (15c52c40)
+2017-01-06T12:31:19.5161038+01:00 0HL1M4TRE2S5S [INF] Request finished in 48.2655ms 200 image/svg+xml (15c52c40)
+2017-01-06T12:31:19.5291183+01:00 0HL1M4TRE2S5U [INF] Request finished in 45.2333ms 200 application/font-woff2 (15c52c40)
+2017-01-06T12:31:19.5311205+01:00 0HL1M4TRE2S5T [INF] Request finished in 63.2644ms 200 image/svg+xml (15c52c40)
+2017-01-06T12:31:29.7291651+01:00 0HL1M4TRE2S5V [INF] Request starting HTTP/1.1 GET http://localhost:5000/Manage   (e5be5b71)
+2017-01-06T12:31:29.7291651+01:00 0HL1M4TRE2S5V [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T12:31:29.7381736+01:00 0HL1M4TRE2S5V [INF] Authorization was successful for user: "hauganmarius@gmail.com". (d7eb274a)
+2017-01-06T12:31:29.7401752+01:00 0HL1M4TRE2S5V [INF] Executing action method "WebApplication8.Controllers.ManageController.Index (WebApplication8)" with arguments ([""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:31:29.7511859+01:00 0HL1M4TRE2S5V [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[Id] = @__id_0 (3b5ca34b)
+2017-01-06T12:31:29.7782116+01:00 0HL1M4TRE2S5V [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [l].[LoginProvider], [l].[ProviderKey], [l].[ProviderDisplayName]
+FROM [AspNetUserLogins] AS [l]
+WHERE [l].[UserId] = @__userId_0 (3b5ca34b)
+2017-01-06T12:31:29.8532867+01:00 0HL1M4TRE2S5V [INF] Executing ViewResult, running view at path "/Views/Manage/Index.cshtml". (9707eebe)
+2017-01-06T12:31:29.8602933+01:00 0HL1M4TRE2S5V [INF] Executed action "WebApplication8.Controllers.ManageController.Index (WebApplication8)" in 130.7607ms (afa2e885)
+2017-01-06T12:31:29.8612944+01:00 0HL1M4TRE2S5V [INF] Request finished in 131.9789ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:31:35.9813335+01:00 0HL1M4TRE2S60 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home   (e5be5b71)
+2017-01-06T12:31:35.9813335+01:00 0HL1M4TRE2S60 [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T12:31:35.9813335+01:00 0HL1M4TRE2S60 [INF] Executing action method "WebApplication8.Controllers.HomeController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:31:35.9813335+01:00 0HL1M4TRE2S60 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-01-06T12:31:35.9823340+01:00 0HL1M4TRE2S60 [INF] Executed action "WebApplication8.Controllers.HomeController.Index (WebApplication8)" in 1.0336ms (afa2e885)
+2017-01-06T12:31:35.9823340+01:00 0HL1M4TRE2S60 [INF] Request finished in 1.6462ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:31:36.6169623+01:00 0HL1M4TRE2S61 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home/About   (e5be5b71)
+2017-01-06T12:31:36.6169623+01:00 0HL1M4TRE2S61 [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T12:31:36.6174656+01:00 0HL1M4TRE2S61 [INF] Executing action method "WebApplication8.Controllers.HomeController.About (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:31:36.6439922+01:00 0HL1M4TRE2S61 [INF] Executing ViewResult, running view at path "/Views/Home/About.cshtml". (9707eebe)
+2017-01-06T12:31:36.6459939+01:00 0HL1M4TRE2S61 [INF] Executed action "WebApplication8.Controllers.HomeController.About (WebApplication8)" in 29.0628ms (afa2e885)
+2017-01-06T12:31:36.6469953+01:00 0HL1M4TRE2S61 [INF] Request finished in 29.9938ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:31:37.1985387+01:00 0HL1M4TRE2S62 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home/Contact   (e5be5b71)
+2017-01-06T12:31:37.1985387+01:00 0HL1M4TRE2S62 [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T12:31:37.1995395+01:00 0HL1M4TRE2S62 [INF] Executing action method "WebApplication8.Controllers.HomeController.Contact (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:31:37.2250660+01:00 0HL1M4TRE2S62 [INF] Executing ViewResult, running view at path "/Views/Home/Contact.cshtml". (9707eebe)
+2017-01-06T12:31:37.2275678+01:00 0HL1M4TRE2S62 [INF] Executed action "WebApplication8.Controllers.HomeController.Contact (WebApplication8)" in 28.2482ms (afa2e885)
+2017-01-06T12:31:37.2275678+01:00 0HL1M4TRE2S62 [INF] Request finished in 29.2619ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:31:37.8601960+01:00 0HL1M4TRE2S63 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home   (e5be5b71)
+2017-01-06T12:31:37.8601960+01:00 0HL1M4TRE2S63 [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T12:31:37.8601960+01:00 0HL1M4TRE2S63 [INF] Executing action method "WebApplication8.Controllers.HomeController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:31:37.8601960+01:00 0HL1M4TRE2S63 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-01-06T12:31:37.8611971+01:00 0HL1M4TRE2S63 [INF] Executed action "WebApplication8.Controllers.HomeController.Index (WebApplication8)" in 0.5008ms (afa2e885)
+2017-01-06T12:31:37.8611971+01:00 0HL1M4TRE2S63 [INF] Request finished in 0.927ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:31:38.8972187+01:00 0HL1M4TRE2S64 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Manage   (e5be5b71)
+2017-01-06T12:31:38.8982195+01:00 0HL1M4TRE2S64 [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T12:31:38.8982195+01:00 0HL1M4TRE2S64 [INF] Authorization was successful for user: "hauganmarius@gmail.com". (d7eb274a)
+2017-01-06T12:31:38.8982195+01:00 0HL1M4TRE2S64 [INF] Executing action method "WebApplication8.Controllers.ManageController.Index (WebApplication8)" with arguments ([""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:31:38.9062271+01:00 0HL1M4TRE2S64 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[Id] = @__id_0 (3b5ca34b)
+2017-01-06T12:31:38.9072279+01:00 0HL1M4TRE2S64 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [l].[LoginProvider], [l].[ProviderKey], [l].[ProviderDisplayName]
+FROM [AspNetUserLogins] AS [l]
+WHERE [l].[UserId] = @__userId_0 (3b5ca34b)
+2017-01-06T12:31:38.9072279+01:00 0HL1M4TRE2S64 [INF] Executing ViewResult, running view at path "/Views/Manage/Index.cshtml". (9707eebe)
+2017-01-06T12:31:38.9082291+01:00 0HL1M4TRE2S64 [INF] Executed action "WebApplication8.Controllers.ManageController.Index (WebApplication8)" in 10.0243ms (afa2e885)
+2017-01-06T12:31:38.9082291+01:00 0HL1M4TRE2S64 [INF] Request finished in 10.5227ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:39:18.2639776+01:00 0HL1M4TRE2S65 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Account/LogOff application/x-www-form-urlencoded 225 (e5be5b71)
+2017-01-06T12:39:18.2649787+01:00 0HL1M4TRE2S65 [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T12:39:18.2649787+01:00 0HL1M4TRE2S65 [INF] Authorization was successful for user: "hauganmarius@gmail.com". (d7eb274a)
+2017-01-06T12:39:18.2659798+01:00 0HL1M4TRE2S65 [INF] Executing action method "WebApplication8.Controllers.AccountController.LogOff (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:39:18.2849976+01:00 0HL1M4TRE2S65 [INF] AuthenticationScheme: "Identity.Application" signed out. (d3f50c8d)
+2017-01-06T12:39:18.2869995+01:00 0HL1M4TRE2S65 [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2017-01-06T12:39:18.2869995+01:00 0HL1M4TRE2S65 [INF] AuthenticationScheme: "Identity.TwoFactorUserId" signed out. (d3f50c8d)
+2017-01-06T12:39:18.2869995+01:00 0HL1M4TRE2S65 [INF] User logged out. (f9c27106)
+2017-01-06T12:39:18.2869995+01:00 0HL1M4TRE2S65 [INF] Executing RedirectResult, redirecting to "/Home". (d98d540e)
+2017-01-06T12:39:18.2869995+01:00 0HL1M4TRE2S65 [INF] Executed action "WebApplication8.Controllers.AccountController.LogOff (WebApplication8)" in 21.6786ms (afa2e885)
+2017-01-06T12:39:18.2869995+01:00 0HL1M4TRE2S65 [INF] Request finished in 22.861ms 302  (15c52c40)
+2017-01-06T12:39:18.2910030+01:00 0HL1M4TRE2S66 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home   (e5be5b71)
+2017-01-06T12:39:18.2920045+01:00 0HL1M4TRE2S66 [INF] Executing action method "WebApplication8.Controllers.HomeController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:39:18.2920045+01:00 0HL1M4TRE2S66 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-01-06T12:39:18.2920045+01:00 0HL1M4TRE2S66 [INF] Executed action "WebApplication8.Controllers.HomeController.Index (WebApplication8)" in 0.7686ms (afa2e885)
+2017-01-06T12:39:18.2920045+01:00 0HL1M4TRE2S66 [INF] Request finished in 1.0143ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:39:23.7043395+01:00 0HL1M4TRE2S67 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Account/Login   (e5be5b71)
+2017-01-06T12:39:23.7053403+01:00 0HL1M4TRE2S67 [INF] Executing action method "WebApplication8.Controllers.AccountController.Login (WebApplication8)" with arguments ([""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:39:23.8384740+01:00 0HL1M4TRE2S67 [INF] Executing ViewResult, running view at path "/Views/Account/Login.cshtml". (9707eebe)
+2017-01-06T12:39:23.8735077+01:00 0HL1M4TRE2S67 [INF] Executed action "WebApplication8.Controllers.AccountController.Login (WebApplication8)" in 168.2577ms (afa2e885)
+2017-01-06T12:39:23.8735077+01:00 0HL1M4TRE2S67 [INF] Request finished in 169.0838ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:39:28.8454094+01:00 0HL1M4TRE2S68 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 271 (e5be5b71)
+2017-01-06T12:39:28.8484122+01:00 0HL1M4TRE2S68 [INF] Executing action method "WebApplication8.Controllers.AccountController.Login (WebApplication8)" with arguments (["WebApplication8.Models.AccountViewModels.LoginViewModel", ""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:39:28.8884505+01:00 0HL1M4TRE2S68 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0 (3b5ca34b)
+2017-01-06T12:39:28.9334956+01:00 0HL1M4TRE2S68 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0 (3b5ca34b)
+2017-01-06T12:39:28.9349970+01:00 0HL1M4TRE2S68 [INF] Executed DbCommand (0ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0 (3b5ca34b)
+2017-01-06T12:39:28.9354975+01:00 0HL1M4TRE2S68 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2017-01-06T12:39:28.9359981+01:00 0HL1M4TRE2S68 [INF] User logged in. (fdce0db4)
+2017-01-06T12:39:28.9359981+01:00 0HL1M4TRE2S68 [INF] Executing RedirectResult, redirecting to "/Home". (d98d540e)
+2017-01-06T12:39:28.9359981+01:00 0HL1M4TRE2S68 [INF] Executed action "WebApplication8.Controllers.AccountController.Login (WebApplication8)" in 89.6206ms (afa2e885)
+2017-01-06T12:39:28.9359981+01:00 0HL1M4TRE2S68 [INF] Request finished in 90.5006ms 302  (15c52c40)
+2017-01-06T12:39:28.9395035+01:00 0HL1M4TRE2S69 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home   (e5be5b71)
+2017-01-06T12:39:28.9405046+01:00 0HL1M4TRE2S69 [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T12:39:28.9405046+01:00 0HL1M4TRE2S69 [INF] Executing action method "WebApplication8.Controllers.HomeController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:39:28.9405046+01:00 0HL1M4TRE2S69 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-01-06T12:39:28.9405046+01:00 0HL1M4TRE2S69 [INF] Executed action "WebApplication8.Controllers.HomeController.Index (WebApplication8)" in 0.4577ms (afa2e885)
+2017-01-06T12:39:28.9405046+01:00 0HL1M4TRE2S69 [INF] Request finished in 0.8363ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:39:34.4749614+01:00 0HL1M4TRE2S6A [INF] Request starting HTTP/1.1 POST http://localhost:5000/Account/LogOff application/x-www-form-urlencoded 225 (e5be5b71)
+2017-01-06T12:39:34.4759619+01:00 0HL1M4TRE2S6A [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T12:39:34.4759619+01:00 0HL1M4TRE2S6A [INF] Authorization was successful for user: "hauganmarius@gmail.com". (d7eb274a)
+2017-01-06T12:39:34.4759619+01:00 0HL1M4TRE2S6A [INF] Executing action method "WebApplication8.Controllers.AccountController.LogOff (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:39:34.4759619+01:00 0HL1M4TRE2S6A [INF] AuthenticationScheme: "Identity.Application" signed out. (d3f50c8d)
+2017-01-06T12:39:34.4759619+01:00 0HL1M4TRE2S6A [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2017-01-06T12:39:34.4759619+01:00 0HL1M4TRE2S6A [INF] AuthenticationScheme: "Identity.TwoFactorUserId" signed out. (d3f50c8d)
+2017-01-06T12:39:34.4759619+01:00 0HL1M4TRE2S6A [INF] User logged out. (f9c27106)
+2017-01-06T12:39:34.4759619+01:00 0HL1M4TRE2S6A [INF] Executing RedirectResult, redirecting to "/Home". (d98d540e)
+2017-01-06T12:39:34.4759619+01:00 0HL1M4TRE2S6A [INF] Executed action "WebApplication8.Controllers.AccountController.LogOff (WebApplication8)" in 0.6589ms (afa2e885)
+2017-01-06T12:39:34.4759619+01:00 0HL1M4TRE2S6A [INF] Request finished in 1.1164ms 302  (15c52c40)
+2017-01-06T12:39:34.4809662+01:00 0HL1M4TRE2S6B [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home   (e5be5b71)
+2017-01-06T12:39:34.4809662+01:00 0HL1M4TRE2S6B [INF] Executing action method "WebApplication8.Controllers.HomeController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:39:34.4809662+01:00 0HL1M4TRE2S6B [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-01-06T12:39:34.4809662+01:00 0HL1M4TRE2S6B [INF] Executed action "WebApplication8.Controllers.HomeController.Index (WebApplication8)" in 0.4493ms (afa2e885)
+2017-01-06T12:39:34.4809662+01:00 0HL1M4TRE2S6B [INF] Request finished in 0.6481ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:39:36.3638256+01:00 0HL1M4TRE2S6C [INF] Request starting HTTP/1.1 GET http://localhost:5000/Account/Login   (e5be5b71)
+2017-01-06T12:39:36.3638256+01:00 0HL1M4TRE2S6C [INF] Executing action method "WebApplication8.Controllers.AccountController.Login (WebApplication8)" with arguments ([""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:39:36.3638256+01:00 0HL1M4TRE2S6C [INF] Executing ViewResult, running view at path "/Views/Account/Login.cshtml". (9707eebe)
+2017-01-06T12:39:36.3648270+01:00 0HL1M4TRE2S6C [INF] Executed action "WebApplication8.Controllers.AccountController.Login (WebApplication8)" in 1.2655ms (afa2e885)
+2017-01-06T12:39:36.3648270+01:00 0HL1M4TRE2S6C [INF] Request finished in 1.5061ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:39:38.7091411+01:00 0HL1M4TRE2S6D [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home   (e5be5b71)
+2017-01-06T12:39:38.7091411+01:00 0HL1M4TRE2S6D [INF] Executing action method "WebApplication8.Controllers.HomeController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:39:38.7101422+01:00 0HL1M4TRE2S6D [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-01-06T12:39:38.7101422+01:00 0HL1M4TRE2S6D [INF] Executed action "WebApplication8.Controllers.HomeController.Index (WebApplication8)" in 0.4315ms (afa2e885)
+2017-01-06T12:39:38.7101422+01:00 0HL1M4TRE2S6D [INF] Request finished in 0.643ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:39:39.7892052+01:00 0HL1M4TRE2S6E [INF] Request starting HTTP/1.1 GET http://localhost:5000/Account/Login   (e5be5b71)
+2017-01-06T12:39:39.7902060+01:00 0HL1M4TRE2S6E [INF] Executing action method "WebApplication8.Controllers.AccountController.Login (WebApplication8)" with arguments ([""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:39:39.7902060+01:00 0HL1M4TRE2S6E [INF] Executing ViewResult, running view at path "/Views/Account/Login.cshtml". (9707eebe)
+2017-01-06T12:39:39.7902060+01:00 0HL1M4TRE2S6E [INF] Executed action "WebApplication8.Controllers.AccountController.Login (WebApplication8)" in 0.9794ms (afa2e885)
+2017-01-06T12:39:39.7912074+01:00 0HL1M4TRE2S6E [INF] Request finished in 1.2044ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T12:39:41.0734696+01:00 0HL1M4TRE2S6F [INF] Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 271 (e5be5b71)
+2017-01-06T12:39:41.0744707+01:00 0HL1M4TRE2S6F [INF] Executing action method "WebApplication8.Controllers.AccountController.Login (WebApplication8)" with arguments (["WebApplication8.Models.AccountViewModels.LoginViewModel", ""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:39:41.0754721+01:00 0HL1M4TRE2S6F [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0 (3b5ca34b)
+2017-01-06T12:39:41.0824778+01:00 0HL1M4TRE2S6F [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0 (3b5ca34b)
+2017-01-06T12:39:41.0824778+01:00 0HL1M4TRE2S6F [INF] Executed DbCommand (0ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0 (3b5ca34b)
+2017-01-06T12:39:41.0834792+01:00 0HL1M4TRE2S6F [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2017-01-06T12:39:41.0834792+01:00 0HL1M4TRE2S6F [INF] User logged in. (fdce0db4)
+2017-01-06T12:39:41.0834792+01:00 0HL1M4TRE2S6F [INF] Executing RedirectResult, redirecting to "/Home". (d98d540e)
+2017-01-06T12:39:41.0834792+01:00 0HL1M4TRE2S6F [INF] Executed action "WebApplication8.Controllers.AccountController.Login (WebApplication8)" in 9.4795ms (afa2e885)
+2017-01-06T12:39:41.0834792+01:00 0HL1M4TRE2S6F [INF] Request finished in 9.7056ms 302  (15c52c40)
+2017-01-06T12:39:41.0884841+01:00 0HL1M4TRE2S6G [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home   (e5be5b71)
+2017-01-06T12:39:41.0884841+01:00 0HL1M4TRE2S6G [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T12:39:41.0884841+01:00 0HL1M4TRE2S6G [INF] Executing action method "WebApplication8.Controllers.HomeController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T12:39:41.0884841+01:00 0HL1M4TRE2S6G [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-01-06T12:39:41.0894852+01:00 0HL1M4TRE2S6G [INF] Executed action "WebApplication8.Controllers.HomeController.Index (WebApplication8)" in 0.6421ms (afa2e885)
+2017-01-06T12:39:41.0894852+01:00 0HL1M4TRE2S6G [INF] Request finished in 1.1393ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T13:00:26.7609741+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-06T13:00:26.9081149+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-06T13:00:27.2509463+01:00 0HL1M5EDANM2B [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T13:00:27.4301280+01:00 0HL1M5EDANM2B [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T13:00:27.6378290+01:00 0HL1M5EDANM2B [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:00:28.9866426+01:00 0HL1M5EDANM2B [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T13:00:30.4420453+01:00 0HL1M5EDANM2B [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T13:00:30.9029871+01:00 0HL1M5EDANM2B [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 3317.7027ms (afa2e885)
+2017-01-06T13:00:30.9119959+01:00 0HL1M5EDANM2B [INF] Request finished in 3676.3278ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T13:00:37.3968682+01:00 0HL1M5EDANM2C [INF] Request starting HTTP/1.1 POST http://localhost:5000/Account/LogOff application/x-www-form-urlencoded 225 (e5be5b71)
+2017-01-06T13:00:37.3978693+01:00 0HL1M5EDANM2C [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T13:00:37.4128833+01:00 0HL1M5EDANM2C [INF] Authorization was successful for user: "hauganmarius@gmail.com". (d7eb274a)
+2017-01-06T13:00:37.4429153+01:00 0HL1M5EDANM2C [INF] Executing action method "WebApplication8.Controllers.AccountController.LogOff (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:00:37.4739449+01:00 0HL1M5EDANM2C [INF] AuthenticationScheme: "Identity.Application" signed out. (d3f50c8d)
+2017-01-06T13:00:37.4749463+01:00 0HL1M5EDANM2C [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2017-01-06T13:00:37.4749463+01:00 0HL1M5EDANM2C [INF] AuthenticationScheme: "Identity.TwoFactorUserId" signed out. (d3f50c8d)
+2017-01-06T13:00:37.4759471+01:00 0HL1M5EDANM2C [INF] User logged out. (f9c27106)
+2017-01-06T13:00:37.4779488+01:00 0HL1M5EDANM2C [INF] Executing RedirectResult, redirecting to "/Home". (d98d540e)
+2017-01-06T13:00:37.4779488+01:00 0HL1M5EDANM2C [INF] Executed action "WebApplication8.Controllers.AccountController.LogOff (WebApplication8)" in 74.0194ms (afa2e885)
+2017-01-06T13:00:37.4779488+01:00 0HL1M5EDANM2C [INF] Request finished in 81.0705ms 302  (15c52c40)
+2017-01-06T13:00:37.4849559+01:00 0HL1M5EDANM2D [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home   (e5be5b71)
+2017-01-06T13:00:37.4859576+01:00 0HL1M5EDANM2D [INF] Executing action method "WebApplication8.Controllers.HomeController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:00:37.5380102+01:00 0HL1M5EDANM2D [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-01-06T13:00:37.5450170+01:00 0HL1M5EDANM2D [INF] Executed action "WebApplication8.Controllers.HomeController.Index (WebApplication8)" in 60.0879ms (afa2e885)
+2017-01-06T13:00:37.5450170+01:00 0HL1M5EDANM2D [INF] Request finished in 60.7484ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T13:00:38.6300830+01:00 0HL1M5EDANM2E [INF] Request starting HTTP/1.1 GET http://localhost:5000/Account/Login   (e5be5b71)
+2017-01-06T13:00:38.6701226+01:00 0HL1M5EDANM2E [INF] Executing action method "WebApplication8.Controllers.AccountController.Login (WebApplication8)" with arguments ([""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:00:38.7662176+01:00 0HL1M5EDANM2E [INF] Executing ViewResult, running view at path "/Views/Account/Login.cshtml". (9707eebe)
+2017-01-06T13:00:38.8893396+01:00 0HL1M5EDANM2E [INF] Executed action "WebApplication8.Controllers.AccountController.Login (WebApplication8)" in 256.97ms (afa2e885)
+2017-01-06T13:00:38.8893396+01:00 0HL1M5EDANM2E [INF] Request finished in 259.0011ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T13:00:42.2076122+01:00 0HL1M5EDANM2F [INF] Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 255 (e5be5b71)
+2017-01-06T13:00:42.2496549+01:00 0HL1M5EDANM2F [INF] Executing action method "WebApplication8.Controllers.AccountController.Login (WebApplication8)" with arguments (["WebApplication8.Models.AccountViewModels.LoginViewModel", ""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:00:42.4733760+01:00 0HL1M5EDANM2F [INF] Executed DbCommand (12ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0 (3b5ca34b)
+2017-01-06T13:00:42.6185151+01:00 0HL1M5EDANM2F [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0 (3b5ca34b)
+2017-01-06T13:00:42.6355316+01:00 0HL1M5EDANM2F [INF] Executed DbCommand (0ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0 (3b5ca34b)
+2017-01-06T13:00:42.6495444+01:00 0HL1M5EDANM2F [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2017-01-06T13:00:42.6505455+01:00 0HL1M5EDANM2F [INF] User logged in. (fdce0db4)
+2017-01-06T13:00:42.6510461+01:00 0HL1M5EDANM2F [INF] Executing RedirectResult, redirecting to "/Home". (d98d540e)
+2017-01-06T13:00:42.6510461+01:00 0HL1M5EDANM2F [INF] Executed action "WebApplication8.Controllers.AccountController.Login (WebApplication8)" in 441.7499ms (afa2e885)
+2017-01-06T13:00:42.6510461+01:00 0HL1M5EDANM2F [INF] Request finished in 443.2829ms 302  (15c52c40)
+2017-01-06T13:00:42.6550523+01:00 0HL1M5EDANM2G [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home   (e5be5b71)
+2017-01-06T13:00:42.6550523+01:00 0HL1M5EDANM2G [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T13:00:42.6550523+01:00 0HL1M5EDANM2G [INF] Executing action method "WebApplication8.Controllers.HomeController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:00:42.6550523+01:00 0HL1M5EDANM2G [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-01-06T13:00:42.6560543+01:00 0HL1M5EDANM2G [INF] Executed action "WebApplication8.Controllers.HomeController.Index (WebApplication8)" in 0.521ms (afa2e885)
+2017-01-06T13:00:42.6560543+01:00 0HL1M5EDANM2G [INF] Request finished in 0.9206ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T13:00:49.1063900+01:00 0HL1M5EDANM2H [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home/movies   (e5be5b71)
+2017-01-06T13:00:49.1063900+01:00 0HL1M5EDANM2H [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T13:00:49.1073911+01:00 0HL1M5EDANM2H [INF] Request finished in 1.2694ms 404  (15c52c40)
+2017-01-06T13:00:52.5297553+01:00 0HL1M5EDANM2I [INF] Request starting HTTP/1.1 GET http://localhost:5000/movies   (e5be5b71)
+2017-01-06T13:00:52.5307567+01:00 0HL1M5EDANM2I [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T13:00:52.5307567+01:00 0HL1M5EDANM2I [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:00:52.5357610+01:00 0HL1M5EDANM2I [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T13:00:52.5357610+01:00 0HL1M5EDANM2I [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T13:00:52.5447698+01:00 0HL1M5EDANM2I [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 14.051ms (afa2e885)
+2017-01-06T13:00:52.5447698+01:00 0HL1M5EDANM2I [INF] Request finished in 14.4642ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T13:00:54.6668632+01:00 0HL1M5EDANM2J [INF] Request starting HTTP/1.1 GET http://localhost:5000/movies/Edit/1   (e5be5b71)
+2017-01-06T13:00:54.6668632+01:00 0HL1M5EDANM2J [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T13:00:54.6698663+01:00 0HL1M5EDANM2J [INF] Executing action method "WebApplication8.Controllers.MoviesController.Edit (WebApplication8)" with arguments (["1"]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:00:54.6768728+01:00 0HL1M5EDANM2J [WRN] The LINQ expression 'SingleOrDefault()' could not be translated and will be evaluated locally. To configure this warning use the DbContextOptionsBuilder.ConfigureWarnings API (event id 'RelationalEventId.QueryClientEvaluationWarning'). ConfigureWarnings can be used when overriding the DbContext.OnConfiguring method or using AddDbContext on the application service provider. (3b5ca34b)
+2017-01-06T13:00:54.6858816+01:00 0HL1M5EDANM2J [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m]
+WHERE [m].[ID] = @__id_0 (3b5ca34b)
+2017-01-06T13:00:54.7529469+01:00 0HL1M5EDANM2J [INF] Executing ViewResult, running view at path "/Views/Movies/Edit.cshtml". (9707eebe)
+2017-01-06T13:00:54.7919859+01:00 0HL1M5EDANM2J [INF] Executed action "WebApplication8.Controllers.MoviesController.Edit (WebApplication8)" in 124.0309ms (afa2e885)
+2017-01-06T13:00:54.7919859+01:00 0HL1M5EDANM2J [INF] Request finished in 125.082ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T13:01:01.4205015+01:00 0HL1M5EDANM2K [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T13:01:01.4215029+01:00 0HL1M5EDANM2K [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T13:01:01.4215029+01:00 0HL1M5EDANM2K [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:01:01.4225037+01:00 0HL1M5EDANM2K [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T13:01:01.4225037+01:00 0HL1M5EDANM2K [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T13:01:01.4305108+01:00 0HL1M5EDANM2K [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 9.5888ms (afa2e885)
+2017-01-06T13:01:01.4315119+01:00 0HL1M5EDANM2K [INF] Request finished in 10.1716ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T13:01:06.9519279+01:00 0HL1M5EDANM2L [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home   (e5be5b71)
+2017-01-06T13:01:06.9519279+01:00 0HL1M5EDANM2L [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T13:01:06.9519279+01:00 0HL1M5EDANM2L [INF] Executing action method "WebApplication8.Controllers.HomeController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:01:06.9519279+01:00 0HL1M5EDANM2L [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-01-06T13:01:06.9529296+01:00 0HL1M5EDANM2L [INF] Executed action "WebApplication8.Controllers.HomeController.Index (WebApplication8)" in 0.5686ms (afa2e885)
+2017-01-06T13:01:06.9529296+01:00 0HL1M5EDANM2L [INF] Request finished in 1.0218ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T13:31:28.1150012+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-06T13:31:28.2761557+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-06T13:31:28.4958657+01:00 0HL1M5VO0UMS3 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T13:31:30.3261184+01:00 0HL1M5VO0UMS3 [INF] Executed DbCommand (24ms) [Parameters=[@__id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[Id] = @__id_0 (3b5ca34b)
+2017-01-06T13:31:30.4897753+01:00 0HL1M5VO0UMS3 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0 (3b5ca34b)
+2017-01-06T13:31:30.5062915+01:00 0HL1M5VO0UMS3 [INF] Executed DbCommand (0ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0 (3b5ca34b)
+2017-01-06T13:31:30.5102948+01:00 0HL1M5VO0UMS3 [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T13:31:30.7159920+01:00 0HL1M5VO0UMS3 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:31:30.7250011+01:00 0HL1M5VO0UMS3 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T13:31:32.1593743+01:00 0HL1M5VO0UMS3 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T13:31:32.6588529+01:00 0HL1M5VO0UMS3 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 1993.7493ms (afa2e885)
+2017-01-06T13:31:32.6678613+01:00 0HL1M5VO0UMS3 [INF] Request finished in 4190.4492ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T13:31:34.8134164+01:00 0HL1M5VO0UMS4 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Account/LogOff application/x-www-form-urlencoded 225 (e5be5b71)
+2017-01-06T13:31:34.8139176+01:00 0HL1M5VO0UMS4 [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application". (bdba1d38)
+2017-01-06T13:31:34.8294321+01:00 0HL1M5VO0UMS4 [INF] Authorization was successful for user: "hauganmarius@gmail.com". (d7eb274a)
+2017-01-06T13:31:34.8584597+01:00 0HL1M5VO0UMS4 [INF] Executing action method "WebApplication8.Controllers.AccountController.LogOff (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:31:34.8754756+01:00 0HL1M5VO0UMS4 [INF] AuthenticationScheme: "Identity.Application" signed out. (d3f50c8d)
+2017-01-06T13:31:34.8769772+01:00 0HL1M5VO0UMS4 [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2017-01-06T13:31:34.8769772+01:00 0HL1M5VO0UMS4 [INF] AuthenticationScheme: "Identity.TwoFactorUserId" signed out. (d3f50c8d)
+2017-01-06T13:31:34.8774775+01:00 0HL1M5VO0UMS4 [INF] User logged out. (f9c27106)
+2017-01-06T13:31:34.8799799+01:00 0HL1M5VO0UMS4 [INF] Executing RedirectResult, redirecting to "/Home". (d98d540e)
+2017-01-06T13:31:34.8809808+01:00 0HL1M5VO0UMS4 [INF] Executed action "WebApplication8.Controllers.AccountController.LogOff (WebApplication8)" in 61.6447ms (afa2e885)
+2017-01-06T13:31:34.8814813+01:00 0HL1M5VO0UMS4 [INF] Request finished in 68.0558ms 302  (15c52c40)
+2017-01-06T13:31:34.8879876+01:00 0HL1M5VO0UMS5 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home   (e5be5b71)
+2017-01-06T13:31:34.8894896+01:00 0HL1M5VO0UMS5 [INF] Executing action method "WebApplication8.Controllers.HomeController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:31:34.9285265+01:00 0HL1M5VO0UMS5 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-01-06T13:31:34.9360339+01:00 0HL1M5VO0UMS5 [INF] Executed action "WebApplication8.Controllers.HomeController.Index (WebApplication8)" in 46.9578ms (afa2e885)
+2017-01-06T13:31:34.9360339+01:00 0HL1M5VO0UMS5 [INF] Request finished in 47.7213ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T13:31:54.9757344+01:00 0HL1M5VO0UMS6 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Account/Login   (e5be5b71)
+2017-01-06T13:31:55.0207773+01:00 0HL1M5VO0UMS6 [INF] Executing action method "WebApplication8.Controllers.AccountController.Login (WebApplication8)" with arguments ([""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:31:55.1223752+01:00 0HL1M5VO0UMS6 [INF] Executing ViewResult, running view at path "/Views/Account/Login.cshtml". (9707eebe)
+2017-01-06T13:31:55.2530000+01:00 0HL1M5VO0UMS6 [INF] Executed action "WebApplication8.Controllers.AccountController.Login (WebApplication8)" in 274.296ms (afa2e885)
+2017-01-06T13:31:55.2530000+01:00 0HL1M5VO0UMS6 [INF] Request finished in 277.6927ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-06T13:32:03.3472519+01:00 0HL1M5VO0UMS7 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Account/ExternalLogin application/x-www-form-urlencoded 200 (e5be5b71)
+2017-01-06T13:32:03.3692733+01:00 0HL1M5VO0UMS7 [INF] Executing action method "WebApplication8.Controllers.AccountController.ExternalLogin (WebApplication8)" with arguments (["Facebook", ""]) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:32:03.3777815+01:00 0HL1M5VO0UMS7 [INF] Executing ChallengeResult with authentication schemes (["Facebook"]). (f3dca807)
+2017-01-06T13:32:03.3983012+01:00 0HL1M5VO0UMS7 [INF] AuthenticationScheme: "Facebook" was challenged. (d45f1f38)
+2017-01-06T13:32:03.3983012+01:00 0HL1M5VO0UMS7 [INF] Executed action "WebApplication8.Controllers.AccountController.ExternalLogin (WebApplication8)" in 50.0882ms (afa2e885)
+2017-01-06T13:32:03.3983012+01:00 0HL1M5VO0UMS7 [INF] Request finished in 51.1665ms 302  (15c52c40)
+2017-01-06T13:33:02.9256575+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-06T13:33:03.0768075+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-06T13:33:03.3150423+01:00 0HL1M60K97C9I [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-06T13:33:03.6378558+01:00 0HL1M60K97C9I [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-06T13:33:04.4231130+01:00 0HL1M60K97C9I [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-06T13:33:05.9000380+01:00 0HL1M60K97C9I [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-06T13:33:06.3484680+01:00 0HL1M60K97C9I [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 2821.9796ms (afa2e885)
+2017-01-06T13:33:06.3594787+01:00 0HL1M60K97C9I [INF] Request finished in 3058.417ms 200 text/html; charset=utf-8 (15c52c40)

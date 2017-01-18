@@ -1,0 +1,87 @@
+2017-01-09T13:59:02.3594872+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T13:59:02.5661848+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T14:01:13.1029324+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T14:01:13.3121325+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T14:01:13.6249315+01:00 0HL1OHUBL3BT4 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-09T14:01:13.6434492+01:00 0HL1OHUBL3BT4 [INF] Request 2 (2eb26f44)
+2017-01-09T14:01:13.9427351+01:00 0HL1OHUBL3BT4 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-09T14:01:14.7445011+01:00 0HL1OHUBL3BT4 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-09T14:01:16.2389291+01:00 0HL1OHUBL3BT4 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-09T14:01:16.6858565+01:00 0HL1OHUBL3BT4 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 2852.3324ms (afa2e885)
+2017-01-09T14:01:16.6958658+01:00 0HL1OHUBL3BT4 [INF] Request finished in 3086.2343ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-09T14:01:44.9653811+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T14:01:45.1530603+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T14:01:45.4663596+01:00 0HL1OHUL4OJBA [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-09T14:01:45.4848777+01:00 0HL1OHUL4OJBA [INF] Request 2 (2eb26f44)
+2017-01-09T14:01:45.7816607+01:00 0HL1OHUL4OJBA [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-09T14:01:46.5779219+01:00 0HL1OHUL4OJBA [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-09T14:01:48.0598378+01:00 0HL1OHUL4OJBA [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-09T14:01:48.5027614+01:00 0HL1OHUL4OJBA [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 2828.9254ms (afa2e885)
+2017-01-09T14:01:48.5117702+01:00 0HL1OHUL4OJBA [INF] Request finished in 3061.3807ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-09T14:02:05.0430747+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T14:02:05.2002247+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T14:02:05.6811841+01:00 0HL1OHUR5HLO0 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-09T14:02:05.6997019+01:00 0HL1OHUR5HLO0 [INF] Request 2 (2eb26f44)
+2017-01-09T14:02:05.9964853+01:00 0HL1OHUR5HLO0 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-09T14:02:06.7927464+01:00 0HL1OHUR5HLO0 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-09T14:02:08.2701625+01:00 0HL1OHUR5HLO0 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-09T14:02:08.7165894+01:00 0HL1OHUR5HLO0 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 2828.3787ms (afa2e885)
+2017-01-09T14:02:08.7255978+01:00 0HL1OHUR5HLO0 [INF] Request finished in 3059.9004ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-09T14:02:15.1462336+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T14:02:15.3264061+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T14:02:15.6036706+01:00 0HL1OHUU45P13 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-09T14:02:15.6221883+01:00 0HL1OHUU45P13 [INF] Request 2 (2eb26f44)
+2017-01-09T14:02:15.9179709+01:00 0HL1OHUU45P13 [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-09T14:02:16.7097274+01:00 0HL1OHUU45P13 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-09T14:02:18.1921475+01:00 0HL1OHUU45P13 [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-09T14:02:18.6345700+01:00 0HL1OHUU45P13 [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 2824.2313ms (afa2e885)
+2017-01-09T14:02:18.6445795+01:00 0HL1OHUU45P13 [INF] Request finished in 3057.1775ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-09T14:05:07.8918199+01:00  [FTL] Current culture is English (United States), en-US
+
+ (060e9fe6)
+2017-01-09T14:05:08.0764964+01:00  [INF] User profile is available. Using '"C:\Users\haugis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-01-09T14:05:08.4133187+01:00 0HL1OI0HK784F [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-09T14:05:08.4333375+01:00 0HL1OI0HK784F [INF] Request 2 (2eb26f44)
+2017-01-09T14:05:08.7326234+01:00 0HL1OI0HK784F [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-09T14:05:09.5193752+01:00 0HL1OI0HK784F [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-09T14:05:11.0228119+01:00 0HL1OI0HK784F [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-09T14:05:11.4737429+01:00 0HL1OI0HK784F [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 2849.7529ms (afa2e885)
+2017-01-09T14:05:11.4852541+01:00 0HL1OI0HK784F [INF] Request finished in 3086.4274ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-09T14:06:57.4094910+01:00 0HL1OI0HK784G [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-09T14:06:57.4099919+01:00 0HL1OI0HK784G [INF] Request 3 (3c790ad1)
+2017-01-09T14:06:57.4104924+01:00 0HL1OI0HK784G [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-09T14:06:57.4470271+01:00 0HL1OI0HK784G [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-09T14:06:57.5581335+01:00 0HL1OI0HK784G [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-09T14:06:57.5946681+01:00 0HL1OI0HK784G [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 183.9958ms (afa2e885)
+2017-01-09T14:06:57.5946681+01:00 0HL1OI0HK784G [INF] Request finished in 185.1542ms 200 text/html; charset=utf-8 (15c52c40)
+2017-01-09T14:07:18.1448060+01:00 0HL1OI0HK784H [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (e5be5b71)
+2017-01-09T14:07:18.1448060+01:00 0HL1OI0HK784H [INF] Request 4 (4dd7ad8e)
+2017-01-09T14:07:18.1453069+01:00 0HL1OI0HK784H [INF] Executing action method "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-01-09T14:07:18.1458071+01:00 0HL1OI0HK784H [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[ID], [m].[Genre], [m].[Price], [m].[ReleaseDate], [m].[Title]
+FROM [Movie] AS [m] (3b5ca34b)
+2017-01-09T14:07:18.1983574+01:00 0HL1OI0HK784H [INF] Executing ViewResult, running view at path "/Views/Movies/Index.cshtml". (9707eebe)
+2017-01-09T14:07:18.2238814+01:00 0HL1OI0HK784H [INF] Executed action "WebApplication8.Controllers.MoviesController.Index (WebApplication8)" in 78.7712ms (afa2e885)
+2017-01-09T14:07:18.2238814+01:00 0HL1OI0HK784H [INF] Request finished in 79.2648ms 200 text/html; charset=utf-8 (15c52c40)
